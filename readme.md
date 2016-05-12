@@ -5,8 +5,9 @@ This is an Express TODO web application, but it has numerous bugs. The QA depart
 Your job is to pair up with another student and reproduce and fix each of the bugs. Time is money so get to fixin'!!!
 
 ## Steps
-1. clone this repository
-2. reproduce and fix each bug listed below
+1. pair up
+2. clone this repository
+3. reproduce and fix each bug listed below
 
 ## List of Bugs
 1. The quick toggle feature on the TODOs _INDEX_ page does not work (gives a 404 error).
