@@ -73,7 +73,7 @@ router.put('/:id', authenticate, function(req, res, next) {
   if (!todo) return next(makeError(res, 'Document not found', 404));
   else {
     todo.title = req.body.title;
-    todo.completed = req.body.completed;
+    todo.completed = req.body.completed ? true : false;
     currentUser.save()
     .then(function(saved) {
       res.redirect('/todos');
