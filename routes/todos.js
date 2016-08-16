@@ -28,7 +28,7 @@ router.get('/', authenticate, function(req, res, next) {
 });
 
 // NEW
-router.get('/todos/new', authenticate, function(req, res, next) {
+router.get('/new', authenticate, function(req, res, next) {
   var todo = {
     title: '',
     completed: false
